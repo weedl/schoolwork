@@ -10,4 +10,4 @@ while 1:
 
     else:
         print("Nope, try again")
-    # This chunk of code ensures that as long as the input is any different from "-1", print a statement
+    # This block of code ensures that as long as the input is any different from "-1", print a statement
