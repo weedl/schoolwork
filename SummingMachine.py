@@ -12,7 +12,7 @@ def summing_machine():
             break  # this whole block makes sure that if "s/S" is typed to break the loop
 
         else:
-            print("Your input is not allowed")  # Any other input is invalid, which is why "else" is used
+            print("Your input is not allowed")  # Any other input (or anything ELSE) is invalid, which is why "else" is used
 
 
 summing_machine()  # Calls the function
