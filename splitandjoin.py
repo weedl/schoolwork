@@ -8,5 +8,5 @@ print(result_split)  # prints the result
 
 combine_character = input("Please enter a character to rejoin the string with: ")  # creates a variable with user input
 # as to which character should be used to rejoin the split
-combine_split = combine.join(result_split)  # the combnie function combines the string where it was split by using the chosen character
+combine_split = combine_character.join(result_split)  # the combnie function combines the string where it was split by using the chosen character
 print(combine_split)  # prints the result
