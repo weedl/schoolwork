@@ -6,9 +6,7 @@ result_split = txt.split(split_character)  # the split function allows a user to
 print(result_split)  # prints the result
 
 
-replace_character = input("Please enter a character to rejoin the string with: ")  # creates a variable with user input
+combine_character = input("Please enter a character to rejoin the string with: ")  # creates a variable with user input
 # as to which character should be used to rejoin the split
-replaces_split = txt.replace(split_character, replace_character)  # replace the character which is removed with the
-# split function with the character inputted by the user. This gives the illusion of the character filling in the
-# "split-spots"
-print(replaces_split)  # prints the result
+combine_split = combine.join(result_split)  # the combnie function combines the string where it was split by using the chosen character
+print(combine_split)  # prints the result
